@@ -60,5 +60,7 @@ D:/Esp32/work/ESP32_work/build/esp-idf/mqtt/libmqtt.a
 D:/Esp32/work/ESP32_work/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 D:/Esp32/work/ESP32_work/build/esp-idf/perfmon/libperfmon.a
 D:/Esp32/work/ESP32_work/build/esp-idf/spiffs/libspiffs.a
+D:/Esp32/work/ESP32_work/build/esp-idf/touch_element/libtouch_element.a
+D:/Esp32/work/ESP32_work/build/esp-idf/usb/libusb.a
 D:/Esp32/work/ESP32_work/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 D:/Esp32/work/ESP32_work/build/esp-idf/main/libmain.a
