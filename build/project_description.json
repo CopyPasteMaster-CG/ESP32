@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "main",
-    "project_version":    "f39be78-dirty",
+    "project_version":    "8203757-dirty",
     "project_path":       "D:/Esp32/work/ESP32_work",
     "idf_path":           "C:/Users/cg/esp/v5.2.5/esp-idf",
     "build_dir":          "D:/Esp32/work/ESP32_work/build",

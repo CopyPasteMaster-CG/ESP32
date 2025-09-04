@@ -3,6 +3,7 @@
 
 # _Sample project_
 
+
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
 
 This is the simplest buildable example. The example is used by command `idf.py create-project`
@@ -33,3 +34,6 @@ Below is short explanation of remaining files in the project folder.
 ```
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
 They are not used or needed when building with CMake and idf.py.
+
+
+读写SD卡的如果要是使用中文，要使用UTF-8的编码格式，并且要配置FAT文件系统，不然读取不成功，

@@ -85,9 +85,9 @@ void app_main(void)
     ESP_LOGI(TAG, "Filesystem mounted");
     sdmmc_card_print_info(stdout, card);
 
-    const char *file_hello = MOUNT_POINT"/hello.txt";
+    const char *file_hello = MOUNT_POINT"/hello树先生.txt";
     char data[EXAMPLE_MAX_CHAR_SIZE];
-    snprintf(data, EXAMPLE_MAX_CHAR_SIZE, "%s %s!\n", "Hello", card->cid.name);
+    snprintf(data, EXAMPLE_MAX_CHAR_SIZE, "%s %s!\n", "Hello,啊树先生,", card->cid.name);
     ret = s_example_write_file(file_hello, data);
     if (ret != ESP_OK) {
         return;
