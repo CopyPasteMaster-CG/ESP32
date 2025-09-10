@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cg/esp/v5.2.5/esp-idf/components/esp_system
+# Install script for directory: G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Espressif/tools/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "G:/EPS32_S3/espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Esp32/work/ESP32_work/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_system/port/cmake_install.cmake")
 endif()
 

@@ -1,6 +1,23 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.espIdfPathWin": "C:\\Users\\cg\\esp\\v5.2.5\\esp-idf",
-  "idf.toolsPathWin": "d:\\Espressif\\tools",
-  "idf.pythonInstallPath": "d:\\Espressif\\tools\\tools\\idf-python\\3.11.2\\python.exe"
+  "idf.espIdfPathWin": "g:\\EPS32_S3\\v5.1.6\\esp-idf",
+  "idf.toolsPathWin": "g:\\EPS32_S3\\espressif",
+  "idf.pythonInstallPath": "g:\\EPS32_S3\\espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-bridge.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "g:\\EPS32_S3\\espressif\\tools\\esp-clang\\15.0.0-23786128ae\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=g:\\EPS32_S3\\espressif\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\WQUAV\\Desktop\\ESP32\\myESP32\\ESP32\\build"
+  ],
+  "idf.flashType": "UART",
+  "idf.portWin": "COM56",
+  "files.associations": {
+    "yingwu.h": "c"
+  }
 }
