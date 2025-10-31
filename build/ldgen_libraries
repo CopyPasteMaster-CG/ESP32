@@ -63,4 +63,6 @@ C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/touch_element/libtouch_
 C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/ulp/libulp.a
 C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/usb/libusb.a
 C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg.a
+C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/espressif__esp32-camera/libespressif__esp32-camera.a
 C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/main/libmain.a

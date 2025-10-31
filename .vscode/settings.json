@@ -18,6 +18,7 @@
   "idf.flashType": "UART",
   "idf.portWin": "COM56",
   "files.associations": {
-    "yingwu.h": "c"
+    "yingwu.h": "c",
+    "i2c.h": "c"
   }
 }
