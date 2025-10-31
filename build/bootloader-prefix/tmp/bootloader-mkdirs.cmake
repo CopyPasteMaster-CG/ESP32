@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION 3.5)
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/Users/cg/esp/v5.2.5/esp-idf/components/bootloader/subproject")
-  file(MAKE_DIRECTORY "C:/Users/cg/esp/v5.2.5/esp-idf/components/bootloader/subproject")
+if(NOT EXISTS "G:/Espressif/v5.2.6/esp-idf/components/bootloader/subproject")
+  file(MAKE_DIRECTORY "G:/Espressif/v5.2.6/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "D:/Esp32/work/ESP32_work/build/bootloader"
-  "D:/Esp32/work/ESP32_work/build/bootloader-prefix"
-  "D:/Esp32/work/ESP32_work/build/bootloader-prefix/tmp"
-  "D:/Esp32/work/ESP32_work/build/bootloader-prefix/src/bootloader-stamp"
-  "D:/Esp32/work/ESP32_work/build/bootloader-prefix/src"
-  "D:/Esp32/work/ESP32_work/build/bootloader-prefix/src/bootloader-stamp"
+  "G:/ESP32/myESP32/ESP32/build/bootloader"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/tmp"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/Esp32/work/ESP32_work/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/Esp32/work/ESP32_work/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
