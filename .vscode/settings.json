@@ -15,5 +15,12 @@
     "--background-index",
     "--query-driver=g:\\Espressif\\tools\\tools\\xtensa-esp-elf\\esp-13.2.0_20250707\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
     "--compile-commands-dir=g:\\ESP32\\myESP32\\ESP32\\build"
-  ]
+  ],
+  "files.associations": {
+    "stdint.h": "c",
+    "esp_err.h": "c",
+    "gpio.h": "c",
+    "esp_compiler.h": "c"
+  },
+  "idf.flashType": "UART"
 }

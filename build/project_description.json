@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "main",
-    "project_version":    "f39be78-dirty",
+    "project_version":    "407dd0f-dirty",
     "project_path":       "G:/ESP32/myESP32/ESP32",
     "idf_path":           "G:/Espressif/v5.2.6/esp-idf",
     "build_dir":          "G:/ESP32/myESP32/ESP32/build",
@@ -805,7 +805,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/main/libmain.a",
-            "sources": [ "G:/ESP32/myESP32/ESP32/main/main.c" ],
+            "sources": [ "G:/ESP32/myESP32/ESP32/main/pca9557.c", "G:/ESP32/myESP32/ESP32/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
