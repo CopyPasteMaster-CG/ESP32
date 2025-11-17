@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg
+# Install script for directory: G:/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

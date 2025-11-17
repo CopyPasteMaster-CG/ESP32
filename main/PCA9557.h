@@ -23,7 +23,7 @@
 #define SET_BITS(_m, _s, _v)  ((_v) ? (_m)|((_s)) : (_m)&~((_s)))
 
 esp_err_t bsp_i2c_init(void);
-void pca9557_init(void);
+//void pca9557_init(void);
 esp_err_t pca9557_set_output_state(uint8_t gpio_bit, uint8_t level);
 void pa_en(uint8_t level);  
 void dvp_pwdn(uint8_t level);

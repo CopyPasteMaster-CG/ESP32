@@ -1,13 +1,13 @@
 {
     "version":            "1.1",
     "project_name":       "main",
-    "project_version":    "944a087-dirty",
-    "project_path":       "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32",
+    "project_version":    "68abe1a-dirty",
+    "project_path":       "G:/ESP32/myESP32/ESP32",
     "idf_path":           "G:/EPS32_S3/v5.1.6/esp-idf",
-    "build_dir":          "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build",
-    "config_file":        "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/sdkconfig",
+    "build_dir":          "G:/ESP32/myESP32/ESP32/build",
+    "config_file":        "G:/ESP32/myESP32/ESP32/sdkconfig",
     "config_defaults":    "",
-    "bootloader_elf":     "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader/bootloader.elf",
+    "bootloader_elf":     "G:/ESP32/myESP32/ESP32/build/bootloader/bootloader.elf",
     "app_elf":            "main.elf",
     "app_bin":            "main.bin",
     "build_type":         "flash_app",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "xtensa-esp32s3-elf-",
     "c_compiler":         "G:/EPS32_S3/espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/bt/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/driver/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_common/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_ota/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_server/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_partition/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_ringbuf/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/hal/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/heap/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/ieee802154/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/log/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/mbedtls/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/openthread/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/soc/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/ulp/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/unity/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/usb/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/Kconfig;C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/Kconfig;C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg/Kconfig",
+        "COMPONENT_KCONFIGS" : "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/bt/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/driver/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_common/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_ota/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_server/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_partition/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_ringbuf/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/hal/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/heap/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/ieee802154/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/log/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/mbedtls/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/openthread/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/soc/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/ulp/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/unity/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/usb/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/Kconfig;G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/Kconfig;G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/Kconfig;G:/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader/Kconfig.projbuild;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_app_format/Kconfig.projbuild;G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/Kconfig.projbuild;G:/EPS32_S3/v5.1.6/esp-idf/components/esptool_py/Kconfig.projbuild;G:/EPS32_S3/v5.1.6/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
     "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "espressif__esp32-camera", "espressif__esp_jpeg", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace", "G:/EPS32_S3/v5.1.6/esp-idf/components/app_update", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support", "G:/EPS32_S3/v5.1.6/esp-idf/components/bt", "G:/EPS32_S3/v5.1.6/esp-idf/components/cmock", "G:/EPS32_S3/v5.1.6/esp-idf/components/console", "G:/EPS32_S3/v5.1.6/esp-idf/components/cxx", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_app_format", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_common", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hid", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_ota", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_server", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_local_ctrl", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_mm", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif_stack", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_partition", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_ringbuf", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg", "G:/EPS32_S3/v5.1.6/esp-idf/components/esptool_py", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap", "G:/EPS32_S3/v5.1.6/esp-idf/components/http_parser", "G:/EPS32_S3/v5.1.6/esp-idf/components/idf_test", "G:/EPS32_S3/v5.1.6/esp-idf/components/ieee802154", "G:/EPS32_S3/v5.1.6/esp-idf/components/json", "G:/EPS32_S3/v5.1.6/esp-idf/components/log", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/main", "G:/EPS32_S3/v5.1.6/esp-idf/components/mbedtls", "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash", "G:/EPS32_S3/v5.1.6/esp-idf/components/openthread", "G:/EPS32_S3/v5.1.6/esp-idf/components/partition_table", "G:/EPS32_S3/v5.1.6/esp-idf/components/perfmon", "G:/EPS32_S3/v5.1.6/esp-idf/components/protobuf-c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm", "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs", "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport", "G:/EPS32_S3/v5.1.6/esp-idf/components/touch_element", "G:/EPS32_S3/v5.1.6/esp-idf/components/ulp", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant", "G:/EPS32_S3/v5.1.6/esp-idf/components/xtensa", "" ],
+    "build_component_paths" : [ "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace", "G:/EPS32_S3/v5.1.6/esp-idf/components/app_update", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support", "G:/EPS32_S3/v5.1.6/esp-idf/components/bt", "G:/EPS32_S3/v5.1.6/esp-idf/components/cmock", "G:/EPS32_S3/v5.1.6/esp-idf/components/console", "G:/EPS32_S3/v5.1.6/esp-idf/components/cxx", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_app_format", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_common", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hid", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_ota", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_server", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_local_ctrl", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_mm", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif_stack", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_partition", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_ringbuf", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg", "G:/EPS32_S3/v5.1.6/esp-idf/components/esptool_py", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap", "G:/EPS32_S3/v5.1.6/esp-idf/components/http_parser", "G:/EPS32_S3/v5.1.6/esp-idf/components/idf_test", "G:/EPS32_S3/v5.1.6/esp-idf/components/ieee802154", "G:/EPS32_S3/v5.1.6/esp-idf/components/json", "G:/EPS32_S3/v5.1.6/esp-idf/components/log", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip", "G:/ESP32/myESP32/ESP32/main", "G:/EPS32_S3/v5.1.6/esp-idf/components/mbedtls", "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash", "G:/EPS32_S3/v5.1.6/esp-idf/components/openthread", "G:/EPS32_S3/v5.1.6/esp-idf/components/partition_table", "G:/EPS32_S3/v5.1.6/esp-idf/components/perfmon", "G:/EPS32_S3/v5.1.6/esp-idf/components/protobuf-c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm", "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs", "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport", "G:/EPS32_S3/v5.1.6/esp-idf/components/touch_element", "G:/EPS32_S3/v5.1.6/esp-idf/components/ulp", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant", "G:/EPS32_S3/v5.1.6/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -39,7 +39,7 @@
             "priv_reqs": [ "soc", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/app_trace/libapp_trace.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/app_trace/libapp_trace.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace/app_trace.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace/app_trace_util.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace/host_file_io.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/app_trace/port/port_uart.c" ],
             "include_dirs": [ "include" ]
         },
@@ -54,7 +54,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/app_update/libapp_update.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/app_update/esp_ota_ops.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_mem.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_random.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/flash_encrypt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/secure_boot.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/bootloader_utility.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/flash_partitions.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/esp_image_format.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader_support/src/idf/bootloader_sha.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/cmock/libcmock.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/cmock/libcmock.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/cmock/CMock/src/cmock.c" ],
             "include_dirs": [ "CMock/src" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [ "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/console/libconsole.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/console/libconsole.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/console/commands.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/esp_console_repl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/split_argv.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/linenoise/linenoise.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_cmd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_date.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_dbl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_dstr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_end.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_file.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_hashtable.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_int.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_lit.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_rem.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_rex.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_str.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/arg_utils.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/console/argtable3/argtable3.c" ],
             "include_dirs": [ "." ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [ "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/cxx/libcxx.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/cxx/libcxx.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/cxx/cxx_exception_stubs.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/cxx/cxx_guards.cpp" ],
             "include_dirs": []
         },
@@ -159,7 +159,7 @@
             "priv_reqs": [ "efuse", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/driver/libdriver.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/driver/libdriver.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gpio/gpio.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gpio/gpio_glitch_filter_ops.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gpio/rtc_io.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/spi_bus_lock.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/adc_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/adc_dma_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gpio/dedic_gpio.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gpio/gpio_pin_glitch_filter.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gptimer/gptimer.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/gptimer/gptimer_priv.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/timer_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/i2c/i2c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/i2s/i2s_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/i2s/i2s_std.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/i2s_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/i2s/i2s_pdm.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/i2s/i2s_tdm.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/ledc/ledc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_cap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_cmpr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_com.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_fault.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_gen.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_oper.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_sync.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/mcpwm/mcpwm_timer.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/mcpwm_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/pcnt/pulse_cnt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/pcnt_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/rmt/rmt_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/rmt/rmt_encoder.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/rmt/rmt_rx.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/rmt/rmt_tx.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/rmt_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/sdmmc/sdmmc_transaction.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/sdmmc/sdmmc_host.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/sigma_delta/sdm.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/sigma_delta_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/gpspi/spi_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/gpspi/spi_master.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/gpspi/spi_slave.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/sdspi/sdspi_crc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/sdspi/sdspi_host.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/sdspi/sdspi_transaction.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/spi/gpspi/spi_slave_hd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/temperature_sensor/temperature_sensor.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/deprecated/rtc_temperature_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/twai/twai.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/uart/uart.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/usb_serial_jtag/usb_serial_jtag.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/driver/usb_serial_jtag/usb_serial_jtag_connection_monitor.c" ],
             "include_dirs": [ "include", "deprecated", "analog_comparator/include", "dac/include", "gpio/include", "gptimer/include", "i2c/include", "i2s/include", "ledc/include", "mcpwm/include", "parlio/include", "pcnt/include", "rmt/include", "sdio_slave/include", "sdmmc/include", "sigma_delta/include", "spi/include", "temperature_sensor/include", "touch_sensor/include", "twai/include", "uart/include", "usb_serial_jtag/include", "touch_sensor/esp32s3/include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/efuse/libefuse.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/efuse/libefuse.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/esp32s3/esp_efuse_table.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/esp32s3/esp_efuse_fields.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/esp32s3/esp_efuse_rtc_calib.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/esp32s3/esp_efuse_utility.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/src/esp_efuse_api.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/src/esp_efuse_fields.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/src/esp_efuse_utility.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -189,7 +189,7 @@
             "priv_reqs": [ "http_parser", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/esp_tls.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/esp_tls_error_capture.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/esp_tls_platform_port.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ ".", "esp-tls-crypto" ]
         },
@@ -204,7 +204,7 @@
             "priv_reqs": [ "driver", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_adc/libesp_adc.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_adc/libesp_adc.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/adc_cali.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/adc_cali_curve_fitting.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/adc_oneshot.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/adc_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/deprecated/esp_adc_cal_common_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/adc_continuous.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/adc_filter.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/esp32s3/curve_fitting_coefficients.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_adc/deprecated/esp32s3/esp_adc_cal_legacy.c" ],
             "include_dirs": [ "include", "interface", "esp32s3/include", "deprecated/include" ]
         },
@@ -219,7 +219,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -234,7 +234,7 @@
             "priv_reqs": [ "esp_timer", "driver", "esp_event" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,7 +249,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_common/libesp_common.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +264,7 @@
             "priv_reqs": [ "driver", "log", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_eth/libesp_eth.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_eth/libesp_eth.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth/src/esp_eth.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth/src/esp_eth_phy_802_3.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +279,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_event/libesp_event.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event/default_event_loop.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event/esp_event.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +294,7 @@
             "priv_reqs": [ "soc", "esp_rom", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/src/gdbstub.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/src/packet.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub_xtensa.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" ],
             "include_dirs": [ "include" ]
         },
@@ -309,7 +309,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_hid/libesp_hid.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_hid/libesp_hid.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hid/src/esp_hidd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hid/src/esp_hidh.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hid/src/esp_hid_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +324,7 @@
             "priv_reqs": [ "tcp_transport", "http_parser" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_http_client/libesp_http_client.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_http_client/libesp_http_client.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client/esp_http_client.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client/lib/http_auth.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client/lib/http_header.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_client/lib/http_utils.c" ],
             "include_dirs": [ "include" ]
         },
@@ -339,7 +339,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/httpd_main.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/httpd_parse.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/httpd_sess.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/httpd_txrx.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/httpd_uri.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/httpd_ws.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -354,7 +354,7 @@
             "priv_reqs": [ "log", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_https_ota/libesp_https_ota.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_https_ota/libesp_https_ota.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_https_ota/src/esp_https_ota.c" ],
             "include_dirs": [ "include" ]
         },
@@ -384,7 +384,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/cpu.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/esp_cpu_intr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/esp_memory_utils.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/cpu_region_protect.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/esp_clk.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/hw_random.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/intr_alloc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/mac_addr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/periph_ctrl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/revision.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/rtc_module.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_modes.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_console.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_gpio.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_event.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_modem.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/io_mux.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/esp_clk_tree.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_cpu.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/dma/gdma.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/dma/async_memcpy_impl_gdma.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/systimer.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/esp_hmac.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/esp_ds.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/mspi_timing_tuning.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/mspi_timing_config.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/rtc_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/rtc_sleep.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/chip_info.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/esp_crypto_lock.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/sar_periph_ctrl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp32s3/esp_memprot.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32s3" ]
         },
@@ -399,7 +399,7 @@
             "priv_reqs": [ "driver", "esp_mm", "esp_psram" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_lcd/libesp_lcd.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_lcd/libesp_lcd.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_i2c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_spi.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_i80.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_lcd/src/esp_lcd_panel_rgb.c" ],
             "include_dirs": [ "include", "interface" ]
         },
@@ -414,7 +414,7 @@
             "priv_reqs": [ "protobuf-c" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_transport_httpd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -429,7 +429,7 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_mm/esp_mmu_map.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_mm/esp_cache.c" ],
             "include_dirs": [ "include" ]
         },
@@ -444,7 +444,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/esp_netif_handlers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/esp_netif_objects.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/esp_netif_defaults.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -474,7 +474,7 @@
             "priv_reqs": [ "esp_system", "bootloader_support", "spi_flash", "app_update", "partition_table" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_partition/partition.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -489,7 +489,7 @@
             "priv_reqs": [ "nvs_flash", "driver", "efuse", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/src/phy_override.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/src/lib_printf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/src/phy_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/src/phy_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [ "esp_system", "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm/pm_locks.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm/pm_trace.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -519,7 +519,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_psram/libesp_psram.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_psram/libesp_psram.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram/esp_psram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram/mmu_psram_flash.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_psram/esp32s3/esp_psram_impl_octal.c" ],
             "include_dirs": [ "include" ]
         },
@@ -534,7 +534,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -549,7 +549,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_systimer.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_wdt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" ],
             "include_dirs": [ "include", "include/esp32s3", "esp32s3" ]
         },
@@ -564,7 +564,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "pthread", "bootloader_support", "efuse", "driver", "esp_partition" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_system/libesp_system.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/esp_err.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/crosscore_int.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/esp_ipc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/freertos_hooks.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/int_wdt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/panic.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/esp_system.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/startup.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/system_time.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/stack_check.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/ubsan.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/xt_wdt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/debug_stubs.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/task_wdt/task_wdt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/panic_handler.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/brownout.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/soc/esp32s3/clk.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/soc/esp32s3/cache_err_int.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/soc/esp32s3/apb_backup_dma.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S" ],
             "include_dirs": [ "include" ]
         },
@@ -579,7 +579,7 @@
             "priv_reqs": [ "soc", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/src/esp_timer.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/src/system_time.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -594,7 +594,7 @@
             "priv_reqs": [ "driver", "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/mesh_event.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/smartconfig.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/wifi_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/wifi_default.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/wifi_netif.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "wifi_apps/include" ]
         },
@@ -609,7 +609,7 @@
             "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/espcoredump/libespcoredump.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/espcoredump/libespcoredump.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_flash.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_uart.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_elf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_binary.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_sha.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/core_dump_crc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/espcoredump/src/port/xtensa/core_dump_port.c" ],
             "include_dirs": [ "include", "include/port/xtensa" ]
         },
@@ -617,30 +617,30 @@
             "alias": "idf::espressif__esp32-camera",
             "target": "___idf_espressif__esp32-camera",
             "prefix": "idf",
-            "dir": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera",
+            "dir": "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera",
             "type": "LIBRARY",
             "lib": "__idf_espressif__esp32-camera",
             "reqs": [ "driver", "espressif__esp_jpeg" ],
             "priv_reqs": [ "freertos", "nvs_flash", "esp_mm", "esp_timer" ],
             "managed_reqs": [ "espressif__esp_jpeg" ],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/espressif__esp32-camera/libespressif__esp32-camera.a",
-            "sources": [ "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/yuv.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/to_jpg.cpp", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/to_bmp.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/jpge.cpp", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/esp_camera.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/cam_hal.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/sensor.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov2640.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov3660.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov5640.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov7725.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov7670.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/nt99141.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/gc0308.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/gc2145.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/gc032a.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/bf3005.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/bf20a6.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/sc101iot.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/sc030iot.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/sc031gs.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/mega_ccm.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/hm1055.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/hm0360.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/target/esp32s3/ll_cam.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/sccb.c" ],
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/espressif__esp32-camera/libespressif__esp32-camera.a",
+            "sources": [ "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/yuv.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/to_jpg.cpp", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/to_bmp.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/conversions/jpge.cpp", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/esp_camera.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/cam_hal.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/sensor.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov2640.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov3660.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov5640.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov7725.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/ov7670.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/nt99141.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/gc0308.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/gc2145.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/gc032a.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/bf3005.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/bf20a6.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/sc101iot.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/sc030iot.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/sc031gs.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/mega_ccm.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/hm1055.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/sensors/hm0360.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/target/esp32s3/ll_cam.c", "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera/driver/sccb.c" ],
             "include_dirs": [ "driver/include", "conversions/include" ]
         },
         "espressif__esp_jpeg": {
             "alias": "idf::espressif__esp_jpeg",
             "target": "___idf_espressif__esp_jpeg",
             "prefix": "idf",
-            "dir": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg",
+            "dir": "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg",
             "type": "LIBRARY",
             "lib": "__idf_espressif__esp_jpeg",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg.a",
-            "sources": [ "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg/jpeg_decoder.c" ],
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg.a",
+            "sources": [ "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg/jpeg_decoder.c" ],
             "include_dirs": [ "include" ]
         },
         "esptool_py": {
@@ -669,7 +669,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/fatfs/libfatfs.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/fatfs/libfatfs.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/diskio/diskio.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/diskio/diskio_rawflash.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/diskio/diskio_sdmmc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/diskio/diskio_wl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/src/ff.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/port/freertos/ffsystem.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/src/ffunicode.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/vfs/vfs_fat.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/vfs/vfs_fat_sdmmc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c" ],
             "include_dirs": [ "diskio", "vfs", "src" ]
         },
@@ -684,7 +684,7 @@
             "priv_reqs": [ "soc", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/freertos/libfreertos.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/heap_idf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/esp_additions/idf_additions.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/croutine.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/app_startup.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-openocd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/port_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_systick.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/esp_additions/freertos_v8_compat.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "esp_additions/include/freertos", "esp_additions/include", "esp_additions/arch/xtensa/include" ]
         },
@@ -699,7 +699,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/hal/libhal.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/hal/libhal.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/mpu_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/efuse_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/esp32s3/efuse_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/mmu_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/cache_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/rtc_io_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/gpio_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/uart_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/uart_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/adc_hal_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/adc_oneshot_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/esp32s3/clk_tree_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_flash_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_flash_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/systimer_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/timer_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/ledc_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/ledc_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/i2c_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/i2c_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/rmt_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/pcnt_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/mcpwm_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/twai_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/twai_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/gdma_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/i2s_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/sdm_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/adc_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/lcd_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/sha_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/aes_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/brownout_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_slave_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_slave_hal_iram.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_slave_hd_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/hmac_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/ds_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/usb_serial_jtag_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/usb_dwc_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/usb_wrap_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/spi_flash_hal_gpspi.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/touch_sensor_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/xt_wdt_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/esp32s3/touch_sensor_hal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/hal/esp32s3/rtc_cntl_hal.c" ],
             "include_dirs": [ "esp32s3/include", "include", "platform_port/include" ]
         },
@@ -714,7 +714,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/heap/libheap.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/heap/libheap.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/heap_caps_base.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/heap_caps.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/heap_caps_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/multi_heap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/tlsf/tlsf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/port/memory_layout_utils.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/heap/port/esp32s3/memory_layout.c" ],
             "include_dirs": [ "include" ]
         },
@@ -729,7 +729,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -774,7 +774,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/json/libjson.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/json/libjson.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/json/cJSON/cJSON.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/json/cJSON/cJSON_Utils.c" ],
             "include_dirs": [ "cJSON" ]
         },
@@ -789,7 +789,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/log/liblog.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/log/liblog.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/log/log.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/log/log_buffers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/log/log_freertos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -804,7 +804,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/lwip/liblwip.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/lwip/liblwip.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/apps/sntp/sntp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/api_lib.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/api_msg.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/err.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/if_api.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/netbuf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/netdb.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/netifapi.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/sockets.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/api/tcpip.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/def.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/dns.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ip.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/mem.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/memp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/netif.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/pbuf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/raw.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/stats.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/sys.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/tcp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/timeouts.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/udp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/slipif.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/port/debug/lwip_debug.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/port/sockets_ext.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/port/freertos/sys_arch.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/apps/ping/esp_ping.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/apps/ping/ping.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/apps/ping/ping_sock.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch" ]
         },
@@ -812,15 +812,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/main",
+            "dir": "G:/ESP32/myESP32/ESP32/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "espressif__esp32-camera" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp32-camera" ],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/main/st7789.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/main/PCA9557.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/main/main.c" ],
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/main/libmain.a",
+            "sources": [ "G:/ESP32/myESP32/ESP32/main/st7789.c", "G:/ESP32/myESP32/ESP32/main/pca95571.c", "G:/ESP32/myESP32/ESP32/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -834,8 +834,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/x509_crt_bundle.S" ],
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "G:/ESP32/myESP32/ESP32/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "mqtt": {
@@ -849,7 +849,7 @@
             "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/mqtt/libmqtt.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/mqtt/libmqtt.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c" ],
             "include_dirs": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/mqtt/esp-mqtt/include" ]
         },
@@ -864,7 +864,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/newlib/libnewlib.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/abort.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/assert.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/heap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/locks.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/poll.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/pthread.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/random.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/reent_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/newlib_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/syscalls.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/termios.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/stdatomic.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/time.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/sysconf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/realpath.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/newlib/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -879,7 +879,7 @@
             "priv_reqs": [ "newlib" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_api.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_page.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_types.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/nvs_flash/src/nvs_platform.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -924,7 +924,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/perfmon/libperfmon.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/perfmon/libperfmon.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/perfmon/xtensa_perfmon_access.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/perfmon/xtensa_perfmon_apis.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/perfmon/xtensa_perfmon_masks.c" ],
             "include_dirs": [ "include" ]
         },
@@ -939,7 +939,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/protobuf-c/libprotobuf-c.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/protobuf-c/libprotobuf-c.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c" ],
             "include_dirs": [ "protobuf-c" ]
         },
@@ -954,7 +954,7 @@
             "priv_reqs": [ "protobuf-c", "mbedtls", "console", "esp_http_server", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/protocomm/libprotocomm.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/protocomm/libprotocomm.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/common/protocomm.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/proto-c/constants.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/proto-c/sec0.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/proto-c/sec1.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/proto-c/sec2.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/proto-c/session.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/transports/protocomm_console.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/transports/protocomm_httpd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/security/security0.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/security/security1.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/security/security2.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp_mpi.c" ],
             "include_dirs": [ "include/common", "include/security", "include/transports", "include/crypto/srp6a", "proto-c" ]
         },
@@ -969,7 +969,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/pthread/libpthread.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/pthread/libpthread.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/pthread.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/pthread_cond_var.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/pthread_local_storage.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/pthread_rwlock.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -984,7 +984,7 @@
             "priv_reqs": [ "soc", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc/sdmmc_cmd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc/sdmmc_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc/sdmmc_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc/sdmmc_io.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc/sdmmc_mmc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/sdmmc/sdmmc_sd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -999,7 +999,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/soc/libsoc.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/soc/libsoc.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/lldesc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/dport_access_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/interrupts.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/gpio_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/uart_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/adc_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/gdma_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/spi_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/ledc_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/pcnt_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/rmt_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/sdm_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/i2s_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/i2c_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/timer_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/lcd_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/mcpwm_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/sdmmc_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/touch_sensor_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/twai_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/usb_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/usb_dwc_periph.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/soc/esp32s3/rtc_io_periph.c" ],
             "include_dirs": [ "include", "esp32s3", "esp32s3/include" ]
         },
@@ -1014,7 +1014,7 @@
             "priv_reqs": [ "bootloader_support", "app_update", "soc", "driver", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/flash_brownout_hook.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_chip_th.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/memspi_host_driver.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/cache_utils.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/flash_mmap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/flash_ops.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_wrap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/esp_flash_api.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/esp_flash_spi_init.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1029,7 +1029,7 @@
             "priv_reqs": [ "bootloader_support", "esptool_py", "vfs", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/spiffs/libspiffs.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/spiffs_api.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/spiffs/src/spiffs_check.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/spiffs/esp_spiffs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1044,7 +1044,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/tcp_transport/libtcp_transport.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/tcp_transport/libtcp_transport.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/transport.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/transport_ssl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/transport_internal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/transport_socks_proxy.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/tcp_transport/transport_ws.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1059,7 +1059,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/touch_element/libtouch_element.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/touch_element/libtouch_element.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/touch_element/touch_element.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/touch_element/touch_button.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/touch_element/touch_slider.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/touch_element/touch_matrix.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1074,7 +1074,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/ulp/libulp.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/ulp/libulp.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/ulp/ulp_common/ulp_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/ulp/ulp_common/ulp_adc.c" ],
             "include_dirs": [ "ulp_common/include", "ulp_common/include/esp32s3" ]
         },
@@ -1089,7 +1089,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/unity/libunity.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/unity/libunity.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/unity/src/unity.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/unity_runner.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/unity_utils_freertos.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/unity_utils_cache.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/unity_utils_memory.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/unity_port_esp32.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/unity/port/esp/unity_utils_memory_esp.c" ],
             "include_dirs": [ "include", "unity/src" ]
         },
@@ -1104,7 +1104,7 @@
             "priv_reqs": [ "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/usb/libusb.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/usb/libusb.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/hcd_dwc.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/hub.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/usb_helpers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/usb_host.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/usb_private.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/usbh.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/usb/usb_phy.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1119,7 +1119,7 @@
             "priv_reqs": [ "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/vfs/libvfs.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/vfs/libvfs.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/vfs.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/vfs_eventfd.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/vfs_uart.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/vfs_semihost.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/vfs_console.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/vfs/vfs_usb_serial_jtag.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1134,7 +1134,7 @@
             "priv_reqs": [ "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/wear_levelling/libwear_levelling.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/wear_levelling/libwear_levelling.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/Partition.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/SPI_Flash.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/WL_Flash.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/crc32.cpp", "G:/EPS32_S3/v5.1.6/esp-idf/components/wear_levelling/wear_levelling.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -1149,7 +1149,7 @@
             "priv_reqs": [ "protobuf-c", "bt", "json", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/wifi_provisioning/libwifi_provisioning.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/wifi_provisioning/libwifi_provisioning.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/wifi_config.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/wifi_scan.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/wifi_ctrl.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/manager.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/handlers.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/scheme_console.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/proto-c/wifi_ctrl.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wifi_provisioning/src/scheme_softap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1164,7 +1164,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/port/eloop.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/common/sae.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/base64.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/utils/json.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
@@ -1179,7 +1179,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/esp-idf/xtensa/libxtensa.a",
+            "file": "G:/ESP32/myESP32/ESP32/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "G:/EPS32_S3/v5.1.6/esp-idf/components/xtensa/eri.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/xtensa/xt_trax.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/xtensa/xtensa_intr.c", "G:/EPS32_S3/v5.1.6/esp-idf/components/xtensa/xtensa_intr_asm.S" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         }
@@ -2101,7 +2101,7 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/main",
+            "dir": "G:/ESP32/myESP32/ESP32/main",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "espressif__esp32-camera" ],
@@ -2113,7 +2113,7 @@
             "alias": "idf::espressif__esp32-camera",
             "target": "___idf_espressif__esp32-camera",
             "prefix": "idf",
-            "dir": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera",
+            "dir": "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp32-camera",
             "lib": "__idf_espressif__esp32-camera",
             "reqs": [ "driver", "espressif__esp_jpeg" ],
             "priv_reqs": [ "freertos", "nvs_flash", "esp_mm", "esp_timer" ],
@@ -2125,7 +2125,7 @@
             "alias": "idf::espressif__esp_jpeg",
             "target": "___idf_espressif__esp_jpeg",
             "prefix": "idf",
-            "dir": "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg",
+            "dir": "G:/ESP32/myESP32/ESP32/managed_components/espressif__esp_jpeg",
             "lib": "__idf_espressif__esp_jpeg",
             "reqs": [],
             "priv_reqs": [],

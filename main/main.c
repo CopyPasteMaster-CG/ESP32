@@ -6,19 +6,24 @@
 #include "esp_chip_info.h"
 #include "esp_flash.h"
 #include "st7789.h"
-#include "PCA9557.h"
-#include "camera.h"
+#include "PCA95571.h"
 #include "fei.h"
-#include "esp_camera.h"
+
 
 void app_main(void)
 {
     bsp_i2c_init();
-    pca9557_init(); 
+    ESP_ERROR_CHECK(pca9557_init(sda_gpio, scl_gpio));
+    ESP_ERROR_CHECK(pca9557_configure(0x00));
+    
     lcd_init();
     bsp_display_brightness_set(100);
     lcd_draw_pictrue(0, 0, 320, 240, gImage_fei); 
-    vTaskDelay(1000);
-    app_camera_lcd();
+    while(1)
+    {
+        
+        
+    }
+   
 }
 

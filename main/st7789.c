@@ -11,7 +11,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "string.h"
-
+#include "PCA95571.h"
 static const char* TAG = "st7789";
 
 //lcd操作句柄
@@ -129,7 +129,9 @@ esp_err_t st7789_driver_hw_init(st7789_cfg_t* cfg)
 
     esp_lcd_panel_reset(panel_handle);  // 液晶屏复位
     vTaskDelay(pdMS_TO_TICKS(100)); // 100ms延迟
-    lcd_cs(0);  // 拉低CS引脚
+    //lcd_cs(0);  // 拉低CS引脚
+    ESP_ERROR_CHECK(pca9557_write_io(IO0,0));
+    
     vTaskDelay(pdMS_TO_TICKS(100)); // 100ms延迟
     esp_lcd_panel_init(panel_handle);  // 初始化配置寄存器
     esp_lcd_panel_invert_color(panel_handle, true); // 颜色反转

@@ -10,18 +10,18 @@ if(NOT EXISTS "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "G:/EPS32_S3/v5.1.6/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader"
-  "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix"
-  "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix/tmp"
-  "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix/src"
-  "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp"
+  "G:/ESP32/myESP32/ESP32/build/bootloader"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/tmp"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src"
+  "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/WQUAV/Desktop/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "G:/ESP32/myESP32/ESP32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

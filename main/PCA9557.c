@@ -30,14 +30,14 @@ esp_err_t pca9557_register_write_byte(uint8_t reg_addr, uint8_t data)
     return ret;
 }
 
-void pca9557_init(void)
-{
+// void pca9557_init(void)
+// {
 
-    // 写入控制引脚默认值 DVP_PWDN=1  PA_EN = 0  LCD_CS = 1
-    pca9557_register_write_byte(PCA9557_OUTPUT_PORT, 0x05);
-    // 把PCA9557芯片的IO1 IO1 IO2设置为输出 其它引脚保持默认的输入
-    pca9557_register_write_byte(PCA9557_CONFIGURATION_PORT, 0xf8);
-}
+//     // 写入控制引脚默认值 DVP_PWDN=1  PA_EN = 0  LCD_CS = 1
+//     pca9557_register_write_byte(PCA9557_OUTPUT_PORT, 0x05);
+//     // 把PCA9557芯片的IO1 IO1 IO2设置为输出 其它引脚保持默认的输入
+//     pca9557_register_write_byte(PCA9557_CONFIGURATION_PORT, 0xf8);
+// }
 
 esp_err_t pca9557_set_output_state(uint8_t gpio_bit, uint8_t level)
 {

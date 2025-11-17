@@ -16,9 +16,10 @@
     "--compile-commands-dir=c:\\Users\\WQUAV\\Desktop\\ESP32\\myESP32\\ESP32\\build"
   ],
   "idf.flashType": "UART",
-  "idf.portWin": "COM56",
+  "idf.portWin": "COM12",
   "files.associations": {
     "yingwu.h": "c",
-    "i2c.h": "c"
+    "i2c.h": "c",
+    "task.h": "c"
   }
 }
